@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, #B800B0, #001DB8)
+}
+
+#con {
+  background-image: url("thomasShelby.jpg");
+  height: 30vh;
+  width: 40vw;
+  background-position: 45% 10%;
+  color: white;
+  border-radius: 10px;
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.7);
+}
+
+#heading {
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+#para {
+  color: rgba(211, 211, 211, 1);
+  /* margin-left: -25px; */
+}
+
+#heading,
+#para {
+  display: none;
+}
